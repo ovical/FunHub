@@ -373,7 +373,7 @@ UICorner_23.Parent = Close
 
 -- Scripts:
 
-local function TTEIJ_fake_script() -- FEHubs.Script 
+local function MUPUC_fake_script() -- FEHubs.Script 
 	local script = Instance.new('Script', FEHubs)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -382,24 +382,24 @@ local function TTEIJ_fake_script() -- FEHubs.Script
 		script.Parent.Parent["FE Hubs"].FEHubPage.Visible = true
 	end)
 end
-coroutine.wrap(TTEIJ_fake_script)()
-local function QPOG_fake_script() -- EzHub.Script 
+coroutine.wrap(MUPUC_fake_script)()
+local function ENVEFBV_fake_script() -- EzHub.Script 
 	local script = Instance.new('Script', EzHub)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/debug420/Ez-Industries-Launcher-Data/master/Launcher.lua'),true))()
 	end)
 end
-coroutine.wrap(QPOG_fake_script)()
-local function ZSPCW_fake_script() -- NullwareHub.Script 
+coroutine.wrap(ENVEFBV_fake_script)()
+local function ORXZEYB_fake_script() -- NullwareHub.Script 
 	local script = Instance.new('Script', NullwareHub)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGetAsync("https://gist.githubusercontent.com/M6HqVBcddw2qaN4s/dabc2500988785fbec1ce7c7aaee105d/raw/hVQJXfF4sR6yqSfJ"))()
 	end)
 end
-coroutine.wrap(ZSPCW_fake_script)()
-local function RVMFF_fake_script() -- MitzHub.Script 
+coroutine.wrap(ORXZEYB_fake_script)()
+local function TKND_fake_script() -- MitzHub.Script 
 	local script = Instance.new('Script', MitzHub)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -409,16 +409,16 @@ local function RVMFF_fake_script() -- MitzHub.Script
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Sylixe/MiztHub/master/MainFolder/uqXAxyVdQpWTcRCdFXU6Yt2meuDkYcLUDN4SJRekQWZ5wp368zKHreYT4w82AH4U.lua",true))()
 	end)
 end
-coroutine.wrap(RVMFF_fake_script)()
-local function DVEIROD_fake_script() -- DomainHub.Script 
+coroutine.wrap(TKND_fake_script)()
+local function LKFSI_fake_script() -- DomainHub.Script 
 	local script = Instance.new('Script', DomainHub)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet(('https://shlex.dev/domain_v2'),true))()
 	end)
 end
-coroutine.wrap(DVEIROD_fake_script)()
-local function UCESMSJ_fake_script() -- Games.Script 
+coroutine.wrap(LKFSI_fake_script)()
+local function FUBIUYJ_fake_script() -- Games.Script 
 	local script = Instance.new('Script', Games)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -427,24 +427,24 @@ local function UCESMSJ_fake_script() -- Games.Script
 		script.Parent.Parent["FE Hubs"].FEHubPage.Visible = false
 	end)
 end
-coroutine.wrap(UCESMSJ_fake_script)()
-local function WPDYPR_fake_script() -- InfiniteYield.Script 
+coroutine.wrap(FUBIUYJ_fake_script)()
+local function JPXADM_fake_script() -- InfiniteYield.Script 
 	local script = Instance.new('Script', InfiniteYield)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
 end
-coroutine.wrap(WPDYPR_fake_script)()
-local function CWQM_fake_script() -- CMDX.Script 
+coroutine.wrap(JPXADM_fake_script)()
+local function TEDEFQ_fake_script() -- CMDX.Script 
 	local script = Instance.new('Script', CMDX)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
 	end)
 end
-coroutine.wrap(CWQM_fake_script)()
-local function HCHQMWZ_fake_script() -- HomebrewFE.Script 
+coroutine.wrap(TEDEFQ_fake_script)()
+local function URLG_fake_script() -- HomebrewFE.Script 
 	local script = Instance.new('Script', HomebrewFE)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -452,8 +452,8 @@ local function HCHQMWZ_fake_script() -- HomebrewFE.Script
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/mgamingpro/HomebrewAdmin/master/Main'),true))()
 	end)
 end
-coroutine.wrap(HCHQMWZ_fake_script)()
-local function REKEJCT_fake_script() -- Admins.Script 
+coroutine.wrap(URLG_fake_script)()
+local function EOVL_fake_script() -- Admins.Script 
 	local script = Instance.new('Script', Admins)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -462,56 +462,12 @@ local function REKEJCT_fake_script() -- Admins.Script
 		script.Parent.Parent["FE Hubs"].FEHubPage.Visible = false
 	end)
 end
-coroutine.wrap(REKEJCT_fake_script)()
-local function GENVR_fake_script() -- Close.Script 
+coroutine.wrap(EOVL_fake_script)()
+local function PQZQQ_fake_script() -- Close.Script 
 	local script = Instance.new('Script', Close)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		script.Parent.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(GENVR_fake_script)()
-local function KCKE_fake_script() -- FunHubV1.Script 
-	local script = Instance.new('Script', FunHubV1)
-
-	local UserInputService = game:GetService("UserInputService")
-	
-	local gui = script.Parent
-	
-	local dragging
-	local dragInput
-	local dragStart
-	local startPos
-	
-	local function update(input)
-		local delta = input.Position - dragStart
-		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
-	end
-	
-	gui.InputBegan:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
-			dragging = true
-			dragStart = input.Position
-			startPos = gui.Position
-	
-			input.Changed:Connect(function()
-				if input.UserInputState == Enum.UserInputState.End then
-					dragging = false
-				end
-			end)
-		end
-	end)
-	
-	gui.InputChanged:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
-			dragInput = input
-		end
-	end)
-	
-	UserInputService.InputChanged:Connect(function(input)
-		if input == dragInput and dragging then
-			update(input)
-		end
-	end)
-end
-coroutine.wrap(KCKE_fake_script)()
+coroutine.wrap(PQZQQ_fake_script)()
