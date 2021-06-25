@@ -4,7 +4,6 @@
 -- Instances:
 
 local FunHubV1 = Instance.new("ScreenGui")
-
 local Fun = Instance.new("Frame")
 local bar = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
@@ -74,7 +73,6 @@ bar.Parent = Fun
 bar.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
 bar.ClipsDescendants = true
 bar.Size = UDim2.new(0, 508, 0, 37)
-bar.draggable = true
 
 UICorner.CornerRadius = UDim.new(0, 6)
 UICorner.Parent = bar
@@ -375,7 +373,7 @@ UICorner_23.Parent = Close
 
 -- Scripts:
 
-local function MUPUC_fake_script() -- FEHubs.Script 
+local function QUDP_fake_script() -- FEHubs.Script 
 	local script = Instance.new('Script', FEHubs)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -384,24 +382,24 @@ local function MUPUC_fake_script() -- FEHubs.Script
 		script.Parent.Parent["FE Hubs"].FEHubPage.Visible = true
 	end)
 end
-coroutine.wrap(MUPUC_fake_script)()
-local function ENVEFBV_fake_script() -- EzHub.Script 
+coroutine.wrap(QUDP_fake_script)()
+local function UGZNUCT_fake_script() -- EzHub.Script 
 	local script = Instance.new('Script', EzHub)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/debug420/Ez-Industries-Launcher-Data/master/Launcher.lua'),true))()
 	end)
 end
-coroutine.wrap(ENVEFBV_fake_script)()
-local function ORXZEYB_fake_script() -- NullwareHub.Script 
+coroutine.wrap(UGZNUCT_fake_script)()
+local function NZXJ_fake_script() -- NullwareHub.Script 
 	local script = Instance.new('Script', NullwareHub)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGetAsync("https://gist.githubusercontent.com/M6HqVBcddw2qaN4s/dabc2500988785fbec1ce7c7aaee105d/raw/hVQJXfF4sR6yqSfJ"))()
 	end)
 end
-coroutine.wrap(ORXZEYB_fake_script)()
-local function TKND_fake_script() -- MitzHub.Script 
+coroutine.wrap(NZXJ_fake_script)()
+local function YUGB_fake_script() -- MitzHub.Script 
 	local script = Instance.new('Script', MitzHub)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -411,16 +409,16 @@ local function TKND_fake_script() -- MitzHub.Script
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Sylixe/MiztHub/master/MainFolder/uqXAxyVdQpWTcRCdFXU6Yt2meuDkYcLUDN4SJRekQWZ5wp368zKHreYT4w82AH4U.lua",true))()
 	end)
 end
-coroutine.wrap(TKND_fake_script)()
-local function LKFSI_fake_script() -- DomainHub.Script 
+coroutine.wrap(YUGB_fake_script)()
+local function JBWP_fake_script() -- DomainHub.Script 
 	local script = Instance.new('Script', DomainHub)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet(('https://shlex.dev/domain_v2'),true))()
 	end)
 end
-coroutine.wrap(LKFSI_fake_script)()
-local function FUBIUYJ_fake_script() -- Games.Script 
+coroutine.wrap(JBWP_fake_script)()
+local function ZWTJLBG_fake_script() -- Games.Script 
 	local script = Instance.new('Script', Games)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -429,24 +427,24 @@ local function FUBIUYJ_fake_script() -- Games.Script
 		script.Parent.Parent["FE Hubs"].FEHubPage.Visible = false
 	end)
 end
-coroutine.wrap(FUBIUYJ_fake_script)()
-local function JPXADM_fake_script() -- InfiniteYield.Script 
+coroutine.wrap(ZWTJLBG_fake_script)()
+local function LZTIMV_fake_script() -- InfiniteYield.Script 
 	local script = Instance.new('Script', InfiniteYield)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
 end
-coroutine.wrap(JPXADM_fake_script)()
-local function TEDEFQ_fake_script() -- CMDX.Script 
+coroutine.wrap(LZTIMV_fake_script)()
+local function IWGJHK_fake_script() -- CMDX.Script 
 	local script = Instance.new('Script', CMDX)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
 	end)
 end
-coroutine.wrap(TEDEFQ_fake_script)()
-local function URLG_fake_script() -- HomebrewFE.Script 
+coroutine.wrap(IWGJHK_fake_script)()
+local function QEIOFB_fake_script() -- HomebrewFE.Script 
 	local script = Instance.new('Script', HomebrewFE)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -454,8 +452,8 @@ local function URLG_fake_script() -- HomebrewFE.Script
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/mgamingpro/HomebrewAdmin/master/Main'),true))()
 	end)
 end
-coroutine.wrap(URLG_fake_script)()
-local function EOVL_fake_script() -- Admins.Script 
+coroutine.wrap(QEIOFB_fake_script)()
+local function YUUDT_fake_script() -- Admins.Script 
 	local script = Instance.new('Script', Admins)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -464,12 +462,56 @@ local function EOVL_fake_script() -- Admins.Script
 		script.Parent.Parent["FE Hubs"].FEHubPage.Visible = false
 	end)
 end
-coroutine.wrap(EOVL_fake_script)()
-local function PQZQQ_fake_script() -- Close.Script 
+coroutine.wrap(YUUDT_fake_script)()
+local function IZVW_fake_script() -- Close.Script 
 	local script = Instance.new('Script', Close)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		script.Parent.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(PQZQQ_fake_script)()
+coroutine.wrap(IZVW_fake_script)()
+local function HGHZER_fake_script() -- Fun.LocalScript 
+	local script = Instance.new('LocalScript', Fun)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(HGHZER_fake_script)()
