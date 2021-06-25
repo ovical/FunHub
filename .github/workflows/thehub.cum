@@ -4,7 +4,7 @@
 -- Instances:
 
 local FunHubV1 = Instance.new("ScreenGui")
-FunHubV1.Draggable = true
+
 local Fun = Instance.new("Frame")
 local bar = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
@@ -74,6 +74,7 @@ bar.Parent = Fun
 bar.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
 bar.ClipsDescendants = true
 bar.Size = UDim2.new(0, 508, 0, 37)
+bar.draggable = true
 
 UICorner.CornerRadius = UDim.new(0, 6)
 UICorner.Parent = bar
