@@ -1,0 +1,472 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local FunHubV1 = Instance.new("ScreenGui")
+local Fun = Instance.new("Frame")
+local bar = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local UICorner_3 = Instance.new("UICorner")
+local Credits = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local FEHubs = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local FEHubPage = Instance.new("Frame")
+local UICorner_6 = Instance.new("UICorner")
+local EzHub = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local NullwareHub = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local MitzHub = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local DomainHub = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local Games = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local GamesPage = Instance.new("ScrollingFrame")
+local TextLabel_2 = Instance.new("TextLabel")
+local Jailbreak = Instance.new("ImageButton")
+local UICorner_12 = Instance.new("UICorner")
+local Prisonlife = Instance.new("ImageButton")
+local UICorner_13 = Instance.new("UICorner")
+local Arsenal = Instance.new("ImageButton")
+local UICorner_14 = Instance.new("UICorner")
+local Brookhaven = Instance.new("ImageButton")
+local UICorner_15 = Instance.new("UICorner")
+local AdoptMe = Instance.new("ImageButton")
+local UICorner_16 = Instance.new("UICorner")
+local Strucid = Instance.new("ImageButton")
+local UICorner_17 = Instance.new("UICorner")
+local Admins = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local AdminsPage = Instance.new("Frame")
+local UICorner_19 = Instance.new("UICorner")
+local InfiniteYield = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local CMDX = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local HomebrewFE = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local Close = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+
+--Properties:
+
+FunHubV1.Name = "FunHub V1"
+FunHubV1.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+FunHubV1.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Fun.Name = "Fun"
+Fun.Parent = FunHubV1
+Fun.Active = true
+Fun.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Fun.BorderColor3 = Color3.fromRGB(60, 60, 60)
+Fun.Position = UDim2.new(0.0727566704, 0, 0.309202462, 0)
+Fun.Size = UDim2.new(0, 508, 0, 286)
+
+bar.Name = "bar"
+bar.Parent = Fun
+bar.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+bar.ClipsDescendants = true
+bar.Size = UDim2.new(0, 508, 0, 37)
+
+UICorner.CornerRadius = UDim.new(0, 6)
+UICorner.Parent = bar
+
+Frame.Parent = bar
+Frame.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+Frame.Size = UDim2.new(0, 112, 0, 37)
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.0118110236, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 98, 0, 37)
+TextLabel.Font = Enum.Font.Cartoon
+TextLabel.Text = "FunHub"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+UICorner_2.CornerRadius = UDim.new(0, 6)
+UICorner_2.Parent = Frame
+
+UICorner_3.CornerRadius = UDim.new(0, 20)
+UICorner_3.Parent = Fun
+
+Credits.Name = "Credits"
+Credits.Parent = Fun
+Credits.BackgroundColor3 = Color3.fromRGB(153, 153, 153)
+Credits.Position = UDim2.new(0.791197777, 0, 0.0251369886, 0)
+Credits.Size = UDim2.new(0, 62, 0, 16)
+Credits.Font = Enum.Font.SourceSans
+Credits.Text = "Credits"
+Credits.TextColor3 = Color3.fromRGB(0, 0, 0)
+Credits.TextScaled = true
+Credits.TextSize = 14.000
+Credits.TextWrapped = true
+
+UICorner_4.CornerRadius = UDim.new(0, 12)
+UICorner_4.Parent = Credits
+
+FEHubs.Name = "FE Hubs"
+FEHubs.Parent = Fun
+FEHubs.BackgroundColor3 = Color3.fromRGB(153, 153, 153)
+FEHubs.Position = UDim2.new(0.417182028, 0, 0.0111510083, 0)
+FEHubs.Size = UDim2.new(0, 83, 0, 29)
+FEHubs.Font = Enum.Font.SourceSans
+FEHubs.Text = "FE Hubs"
+FEHubs.TextColor3 = Color3.fromRGB(0, 0, 0)
+FEHubs.TextScaled = true
+FEHubs.TextSize = 14.000
+FEHubs.TextWrapped = true
+
+UICorner_5.CornerRadius = UDim.new(0, 12)
+UICorner_5.Parent = FEHubs
+
+FEHubPage.Name = "FEHubPage"
+FEHubPage.Parent = FEHubs
+FEHubPage.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+FEHubPage.Position = UDim2.new(-2.53827906, 0, 1.20037317, 0)
+FEHubPage.Size = UDim2.new(0, 506, 0, 248)
+FEHubPage.Visible = false
+
+UICorner_6.CornerRadius = UDim.new(0, 12)
+UICorner_6.Parent = FEHubPage
+
+EzHub.Name = "EzHub"
+EzHub.Parent = FEHubPage
+EzHub.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+EzHub.Position = UDim2.new(0.102766797, 0, 0.0483870953, 0)
+EzHub.Size = UDim2.new(0, 182, 0, 44)
+EzHub.Font = Enum.Font.Cartoon
+EzHub.Text = "EzHub"
+EzHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+EzHub.TextSize = 30.000
+EzHub.TextWrapped = true
+
+UICorner_7.CornerRadius = UDim.new(0, 12)
+UICorner_7.Parent = EzHub
+
+NullwareHub.Name = "NullwareHub"
+NullwareHub.Parent = FEHubPage
+NullwareHub.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+NullwareHub.Position = UDim2.new(0.531620562, 0, 0.278225809, 0)
+NullwareHub.Size = UDim2.new(0, 182, 0, 44)
+NullwareHub.Font = Enum.Font.Cartoon
+NullwareHub.Text = "Nullware Hub"
+NullwareHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+NullwareHub.TextSize = 30.000
+NullwareHub.TextWrapped = true
+
+UICorner_8.CornerRadius = UDim.new(0, 12)
+UICorner_8.Parent = NullwareHub
+
+MitzHub.Name = "MitzHub"
+MitzHub.Parent = FEHubPage
+MitzHub.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+MitzHub.Position = UDim2.new(0.102766797, 0, 0.278225809, 0)
+MitzHub.Size = UDim2.new(0, 182, 0, 44)
+MitzHub.Font = Enum.Font.Cartoon
+MitzHub.Text = "MitzHub"
+MitzHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+MitzHub.TextSize = 30.000
+MitzHub.TextWrapped = true
+
+UICorner_9.CornerRadius = UDim.new(0, 12)
+UICorner_9.Parent = MitzHub
+
+DomainHub.Name = "DomainHub"
+DomainHub.Parent = FEHubPage
+DomainHub.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+DomainHub.Position = UDim2.new(0.531620562, 0, 0.0483870953, 0)
+DomainHub.Size = UDim2.new(0, 182, 0, 44)
+DomainHub.Font = Enum.Font.Cartoon
+DomainHub.Text = "Domain Hub"
+DomainHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+DomainHub.TextSize = 30.000
+DomainHub.TextWrapped = true
+
+UICorner_10.CornerRadius = UDim.new(0, 12)
+UICorner_10.Parent = DomainHub
+
+Games.Name = "Games"
+Games.Parent = Fun
+Games.BackgroundColor3 = Color3.fromRGB(153, 153, 153)
+Games.Position = UDim2.new(0.594347358, 0, 0.0111510083, 0)
+Games.Size = UDim2.new(0, 83, 0, 29)
+Games.Font = Enum.Font.SourceSans
+Games.Text = "Games"
+Games.TextColor3 = Color3.fromRGB(0, 0, 0)
+Games.TextScaled = true
+Games.TextSize = 14.000
+Games.TextWrapped = true
+
+UICorner_11.CornerRadius = UDim.new(0, 12)
+UICorner_11.Parent = Games
+
+GamesPage.Name = "GamesPage"
+GamesPage.Parent = Games
+GamesPage.Active = true
+GamesPage.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+GamesPage.BorderSizePixel = 0
+GamesPage.Position = UDim2.new(-3.54946542, 0, 1.4482758, 0)
+GamesPage.Size = UDim2.new(0, 494, 0, 234)
+
+TextLabel_2.Parent = GamesPage
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.542510152, 0, 0.568965495, 0)
+TextLabel_2.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "MORE SOON"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+Jailbreak.Name = "Jailbreak"
+Jailbreak.Parent = GamesPage
+Jailbreak.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Jailbreak.Position = UDim2.new(0.0202429146, 0, 0, 0)
+Jailbreak.Size = UDim2.new(0, 100, 0, 100)
+Jailbreak.Image = "rbxassetid://7000598353"
+
+UICorner_12.CornerRadius = UDim.new(0, 12)
+UICorner_12.Parent = Jailbreak
+
+Prisonlife.Name = "Prisonlife"
+Prisonlife.Parent = GamesPage
+Prisonlife.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Prisonlife.Position = UDim2.new(0.269230783, 0, 0, 0)
+Prisonlife.Size = UDim2.new(0, 100, 0, 100)
+Prisonlife.Image = "rbxassetid://7000591759"
+
+UICorner_13.CornerRadius = UDim.new(0, 12)
+UICorner_13.Parent = Prisonlife
+
+Arsenal.Name = "Arsenal"
+Arsenal.Parent = GamesPage
+Arsenal.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Arsenal.Position = UDim2.new(0.520242929, 0, 0, 0)
+Arsenal.Size = UDim2.new(0, 100, 0, 100)
+Arsenal.Image = "rbxassetid://7000600293"
+
+UICorner_14.CornerRadius = UDim.new(0, 12)
+UICorner_14.Parent = Arsenal
+
+Brookhaven.Name = "Brookhaven"
+Brookhaven.Parent = GamesPage
+Brookhaven.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Brookhaven.Position = UDim2.new(0.0202428997, 0, 0.465517253, 0)
+Brookhaven.Size = UDim2.new(0, 100, 0, 100)
+Brookhaven.Image = "rbxassetid://7000605667"
+
+UICorner_15.CornerRadius = UDim.new(0, 12)
+UICorner_15.Parent = Brookhaven
+
+AdoptMe.Name = "AdoptMe"
+AdoptMe.Parent = GamesPage
+AdoptMe.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AdoptMe.Position = UDim2.new(0.779352248, 0, 0, 0)
+AdoptMe.Size = UDim2.new(0, 100, 0, 100)
+AdoptMe.Image = "rbxassetid://7000603464"
+
+UICorner_16.CornerRadius = UDim.new(0, 12)
+UICorner_16.Parent = AdoptMe
+
+Strucid.Name = "Strucid"
+Strucid.Parent = GamesPage
+Strucid.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Strucid.Position = UDim2.new(0.269230753, 0, 0.465517253, 0)
+Strucid.Size = UDim2.new(0, 100, 0, 100)
+Strucid.Image = "rbxassetid://7000607449"
+
+UICorner_17.CornerRadius = UDim.new(0, 12)
+UICorner_17.Parent = Strucid
+
+Admins.Name = "Admins"
+Admins.Parent = Fun
+Admins.BackgroundColor3 = Color3.fromRGB(153, 153, 153)
+Admins.Position = UDim2.new(0.232283458, 0, 0.0111510083, 0)
+Admins.Size = UDim2.new(0, 83, 0, 29)
+Admins.Font = Enum.Font.SourceSans
+Admins.Text = "Admins"
+Admins.TextColor3 = Color3.fromRGB(0, 0, 0)
+Admins.TextScaled = true
+Admins.TextSize = 14.000
+Admins.TextWrapped = true
+
+UICorner_18.CornerRadius = UDim.new(0, 12)
+UICorner_18.Parent = Admins
+
+AdminsPage.Name = "AdminsPage"
+AdminsPage.Parent = Admins
+AdminsPage.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+AdminsPage.Position = UDim2.new(-1.40574884, 0, 1.16589046, 0)
+AdminsPage.Size = UDim2.new(0, 506, 0, 248)
+AdminsPage.Visible = false
+
+UICorner_19.CornerRadius = UDim.new(0, 12)
+UICorner_19.Parent = AdminsPage
+
+InfiniteYield.Name = "InfiniteYield"
+InfiniteYield.Parent = AdminsPage
+InfiniteYield.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+InfiniteYield.Position = UDim2.new(0.320158094, 0, 0.0282258056, 0)
+InfiniteYield.Size = UDim2.new(0, 182, 0, 44)
+InfiniteYield.Font = Enum.Font.Cartoon
+InfiniteYield.Text = "Infinite Yield"
+InfiniteYield.TextColor3 = Color3.fromRGB(255, 255, 255)
+InfiniteYield.TextSize = 30.000
+InfiniteYield.TextWrapped = true
+
+UICorner_20.CornerRadius = UDim.new(0, 12)
+UICorner_20.Parent = InfiniteYield
+
+CMDX.Name = "CMD-X"
+CMDX.Parent = AdminsPage
+CMDX.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+CMDX.Position = UDim2.new(0.531620562, 0, 0.278225809, 0)
+CMDX.Size = UDim2.new(0, 182, 0, 44)
+CMDX.Font = Enum.Font.Cartoon
+CMDX.Text = "CMD-X"
+CMDX.TextColor3 = Color3.fromRGB(255, 255, 255)
+CMDX.TextSize = 30.000
+CMDX.TextWrapped = true
+
+UICorner_21.CornerRadius = UDim.new(0, 12)
+UICorner_21.Parent = CMDX
+
+HomebrewFE.Name = "Homebrew FE"
+HomebrewFE.Parent = AdminsPage
+HomebrewFE.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+HomebrewFE.Position = UDim2.new(0.1146245, 0, 0.278225809, 0)
+HomebrewFE.Size = UDim2.new(0, 182, 0, 44)
+HomebrewFE.Font = Enum.Font.Cartoon
+HomebrewFE.Text = "Homebrew FE"
+HomebrewFE.TextColor3 = Color3.fromRGB(255, 255, 255)
+HomebrewFE.TextSize = 30.000
+HomebrewFE.TextWrapped = true
+
+UICorner_22.CornerRadius = UDim.new(0, 12)
+UICorner_22.Parent = HomebrewFE
+
+Close.Name = "Close"
+Close.Parent = Fun
+Close.BackgroundColor3 = Color3.fromRGB(238, 77, 44)
+Close.Position = UDim2.new(0.948818922, 0, 0.0283500329, 0)
+Close.Size = UDim2.new(0, 20, 0, 20)
+Close.Font = Enum.Font.SourceSans
+Close.Text = " "
+Close.TextColor3 = Color3.fromRGB(0, 0, 0)
+Close.TextSize = 14.000
+
+UICorner_23.CornerRadius = UDim.new(0, 90)
+UICorner_23.Parent = Close
+
+-- Scripts:
+
+local function CKJSDHV_fake_script() -- FEHubs.Script 
+	local script = Instance.new('Script', FEHubs)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Admins.AdminsPage.Visible = false
+		script.Parent.Parent.Games.GamesPage.Visible = false
+		script.Parent.Parent["FE Hubs"].FEHubPage.Visible = true
+	end)
+end
+coroutine.wrap(CKJSDHV_fake_script)()
+local function WLXMOD_fake_script() -- EzHub.Script 
+	local script = Instance.new('Script', EzHub)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/debug420/Ez-Industries-Launcher-Data/master/Launcher.lua'),true))()
+	end)
+end
+coroutine.wrap(WLXMOD_fake_script)()
+local function AXSVYAN_fake_script() -- NullwareHub.Script 
+	local script = Instance.new('Script', NullwareHub)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGetAsync("https://gist.githubusercontent.com/M6HqVBcddw2qaN4s/dabc2500988785fbec1ce7c7aaee105d/raw/hVQJXfF4sR6yqSfJ"))()
+	end)
+end
+coroutine.wrap(AXSVYAN_fake_script)()
+local function YTLZ_fake_script() -- MitzHub.Script 
+	local script = Instance.new('Script', MitzHub)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		_G.PowerfulNet = false -- Turn on if u want best net, BUT SUPER LAGGY
+		_G.Jitteryness = Vector3.new(0,0,30) -- set it to high value if ur part fall, default is -30
+		_G.CustomGui = false -- if you have custom gui turn this on, put the custom gui script below this loadstring
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Sylixe/MiztHub/master/MainFolder/uqXAxyVdQpWTcRCdFXU6Yt2meuDkYcLUDN4SJRekQWZ5wp368zKHreYT4w82AH4U.lua",true))()
+	end)
+end
+coroutine.wrap(YTLZ_fake_script)()
+local function UMCUDY_fake_script() -- DomainHub.Script 
+	local script = Instance.new('Script', DomainHub)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet(('https://shlex.dev/domain_v2'),true))()
+	end)
+end
+coroutine.wrap(UMCUDY_fake_script)()
+local function TNIQZ_fake_script() -- Games.Script 
+	local script = Instance.new('Script', Games)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Admins.AdminsPage.Visible = false
+		script.Parent.Parent.Games.GamesPage.Visible = true
+		script.Parent.Parent["FE Hubs"].FEHubPage.Visible = false
+	end)
+end
+coroutine.wrap(TNIQZ_fake_script)()
+local function QPDPU_fake_script() -- InfiniteYield.Script 
+	local script = Instance.new('Script', InfiniteYield)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	end)
+end
+coroutine.wrap(QPDPU_fake_script)()
+local function RHTTDAU_fake_script() -- CMDX.Script 
+	local script = Instance.new('Script', CMDX)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+	end)
+end
+coroutine.wrap(RHTTDAU_fake_script)()
+local function GCKGXV_fake_script() -- HomebrewFE.Script 
+	local script = Instance.new('Script', HomebrewFE)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		_G.CustomUI = false
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/mgamingpro/HomebrewAdmin/master/Main'),true))()
+	end)
+end
+coroutine.wrap(GCKGXV_fake_script)()
+local function ZPZJKL_fake_script() -- Admins.Script 
+	local script = Instance.new('Script', Admins)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Admins.AdminsPage.Visible = true
+		script.Parent.Parent.Games.GamesPage.Visible = false
+		script.Parent.Parent["FE Hubs"].FEHubPage.Visible = false
+	end)
+end
+coroutine.wrap(ZPZJKL_fake_script)()
+local function SUILEJE_fake_script() -- Close.Script 
+	local script = Instance.new('Script', Close)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent:Destroy()
+	end)
+end
+coroutine.wrap(SUILEJE_fake_script)()
