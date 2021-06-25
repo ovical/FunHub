@@ -217,6 +217,7 @@ GamesPage.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
 GamesPage.BorderSizePixel = 0
 GamesPage.Position = UDim2.new(-3.54946542, 0, 1.4482758, 0)
 GamesPage.Size = UDim2.new(0, 494, 0, 234)
+GamesPage.Visible = false
 
 TextLabel_2.Parent = GamesPage
 TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -372,7 +373,7 @@ UICorner_23.Parent = Close
 
 -- Scripts:
 
-local function GTSQYS_fake_script() -- FEHubs.Script 
+local function TTEIJ_fake_script() -- FEHubs.Script 
 	local script = Instance.new('Script', FEHubs)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -381,24 +382,24 @@ local function GTSQYS_fake_script() -- FEHubs.Script
 		script.Parent.Parent["FE Hubs"].FEHubPage.Visible = true
 	end)
 end
-coroutine.wrap(GTSQYS_fake_script)()
-local function LUKEN_fake_script() -- EzHub.Script 
+coroutine.wrap(TTEIJ_fake_script)()
+local function QPOG_fake_script() -- EzHub.Script 
 	local script = Instance.new('Script', EzHub)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/debug420/Ez-Industries-Launcher-Data/master/Launcher.lua'),true))()
 	end)
 end
-coroutine.wrap(LUKEN_fake_script)()
-local function SWWBGK_fake_script() -- NullwareHub.Script 
+coroutine.wrap(QPOG_fake_script)()
+local function ZSPCW_fake_script() -- NullwareHub.Script 
 	local script = Instance.new('Script', NullwareHub)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGetAsync("https://gist.githubusercontent.com/M6HqVBcddw2qaN4s/dabc2500988785fbec1ce7c7aaee105d/raw/hVQJXfF4sR6yqSfJ"))()
 	end)
 end
-coroutine.wrap(SWWBGK_fake_script)()
-local function NTGNMH_fake_script() -- MitzHub.Script 
+coroutine.wrap(ZSPCW_fake_script)()
+local function RVMFF_fake_script() -- MitzHub.Script 
 	local script = Instance.new('Script', MitzHub)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -408,16 +409,16 @@ local function NTGNMH_fake_script() -- MitzHub.Script
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Sylixe/MiztHub/master/MainFolder/uqXAxyVdQpWTcRCdFXU6Yt2meuDkYcLUDN4SJRekQWZ5wp368zKHreYT4w82AH4U.lua",true))()
 	end)
 end
-coroutine.wrap(NTGNMH_fake_script)()
-local function WZYY_fake_script() -- DomainHub.Script 
+coroutine.wrap(RVMFF_fake_script)()
+local function DVEIROD_fake_script() -- DomainHub.Script 
 	local script = Instance.new('Script', DomainHub)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet(('https://shlex.dev/domain_v2'),true))()
 	end)
 end
-coroutine.wrap(WZYY_fake_script)()
-local function WMIKGRW_fake_script() -- Games.Script 
+coroutine.wrap(DVEIROD_fake_script)()
+local function UCESMSJ_fake_script() -- Games.Script 
 	local script = Instance.new('Script', Games)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -426,24 +427,24 @@ local function WMIKGRW_fake_script() -- Games.Script
 		script.Parent.Parent["FE Hubs"].FEHubPage.Visible = false
 	end)
 end
-coroutine.wrap(WMIKGRW_fake_script)()
-local function GBWPUYE_fake_script() -- InfiniteYield.Script 
+coroutine.wrap(UCESMSJ_fake_script)()
+local function WPDYPR_fake_script() -- InfiniteYield.Script 
 	local script = Instance.new('Script', InfiniteYield)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
 end
-coroutine.wrap(GBWPUYE_fake_script)()
-local function SXRUL_fake_script() -- CMDX.Script 
+coroutine.wrap(WPDYPR_fake_script)()
+local function CWQM_fake_script() -- CMDX.Script 
 	local script = Instance.new('Script', CMDX)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
 	end)
 end
-coroutine.wrap(SXRUL_fake_script)()
-local function YPUM_fake_script() -- HomebrewFE.Script 
+coroutine.wrap(CWQM_fake_script)()
+local function HCHQMWZ_fake_script() -- HomebrewFE.Script 
 	local script = Instance.new('Script', HomebrewFE)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -451,8 +452,8 @@ local function YPUM_fake_script() -- HomebrewFE.Script
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/mgamingpro/HomebrewAdmin/master/Main'),true))()
 	end)
 end
-coroutine.wrap(YPUM_fake_script)()
-local function GGOYT_fake_script() -- Admins.Script 
+coroutine.wrap(HCHQMWZ_fake_script)()
+local function REKEJCT_fake_script() -- Admins.Script 
 	local script = Instance.new('Script', Admins)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -461,16 +462,16 @@ local function GGOYT_fake_script() -- Admins.Script
 		script.Parent.Parent["FE Hubs"].FEHubPage.Visible = false
 	end)
 end
-coroutine.wrap(GGOYT_fake_script)()
-local function QINWX_fake_script() -- Close.Script 
+coroutine.wrap(REKEJCT_fake_script)()
+local function GENVR_fake_script() -- Close.Script 
 	local script = Instance.new('Script', Close)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		script.Parent.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(QINWX_fake_script)()
-local function KBPFE_fake_script() -- FunHubV1.Script 
+coroutine.wrap(GENVR_fake_script)()
+local function KCKE_fake_script() -- FunHubV1.Script 
 	local script = Instance.new('Script', FunHubV1)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -513,4 +514,4 @@ local function KBPFE_fake_script() -- FunHubV1.Script
 		end
 	end)
 end
-coroutine.wrap(KBPFE_fake_script)()
+coroutine.wrap(KCKE_fake_script)()
